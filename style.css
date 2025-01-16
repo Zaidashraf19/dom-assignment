@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+#container button {
+    width: 5rem;
+    font-size:  5rem;
+    background-color: rgb(red, green, blue);
+    background-color: #fff;
+}
+#mode {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

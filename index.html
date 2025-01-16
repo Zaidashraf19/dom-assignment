@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="mode">
+    <button onclick="dark()" >DARK MODE</button>
+    <button onclick="light()">LIGHT MODE</button>
+</div>
+<p><strong>ADD TO CART BUTTON</strong></p>
+<div id="container">
+    <button onclick="decrease()">-</button>
+    <h1 id="count">0</h1>
+    <button onclick="increase()">+</button>
+</div>
+    <p> <strong>Q1) </strong>Changing Text Content</p>
+    <div id="heading" onclick = "change()">HELLO! CLICK ME</div>
+    <p> <strong>Q2) </strong> Displaying Input Value</p>
+<div>
+    <label for="fullname">FULLNAME: </label> <br>
+    <input type="text" placeholder="ENTER YOUR FULL NAME" id="fullname">
+    <button onclick="getvalue()">SUBMIT</button> <br> <br>
+    <label for="output" id="output">OUTPUT: </label>
+</div>
+<div>
+    <p><strong>Q3) </strong>Simple Login Check (username = admin & password = 12345) <br></p>
+    <label for="USERNAME">USERNAME:</label>
+    <input type="text" id="username" placeholder="USERNAME"> <br> <br>
+    <label for="PASSWORD">PASSWORD:</label>
+    <input type="text" id="password" placeholder="PASSWORD"> <br> <br>
+    <button onclick="Passwordchecker()">SUBMIT</button> <br><br>
+    <p id="passcheck"></p>
+</div>
+<div>
+    <p><strong>Q4) </strong>. Hide and Show Elements</p>
+    <p id="para">Lorem ipsum dolor sit amet.</p>
+    <button onclick="hidetext()">BUTTON</button>
+</div>
+<div>
+    <p><strong>Q5) </strong> Change Button Text</p>
+    <button id="click" onclick="clickme()">CLICK ME!</button>
+</div>
+<div>
+    <p><strong>Q6) </strong>Check Age <br></p>
+    <label for="age">ENTER YOUR AGE:</label>
+    <input type="number" id="age" placeholder="ENTER YOUR AGE">
+    <button onclick="Age()">BUTTON</button>
+    <p id="checkage"></p>
+</div>
+<div>
+    <p><strong>Q7) </strong> Change Paragraph Text</p>
+    <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, eaque?</p>
+    <button onclick="changes()">CLICK ME</button>
+</div>
+<div>
+    <p><strong>Q8) </strong>Greeting Message</p>
+    <label for="name">ENTER YOUR NAME:</label>
+    <input type="text" id="name" placeholder="ENTER YOUR NAME">
+    <button onclick="hello()">CLICK ME!</button>
+    <p id="hello">HELLO</p>
+</div>
+        <script src="./app.js"></script>
+</body>
+</html>
